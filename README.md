@@ -1,2 +1,2 @@
-# progect
+# project
 Zubergoff game
