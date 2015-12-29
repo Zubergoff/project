@@ -60,7 +60,10 @@ const config = {
   ],
 
   resolve: {
+    root: [__dirname + '/common', __dirname + '/src'],
     extensions: ['', '.webpack.js', '.web.js', '.js', '.jsx', '.json'],
+    modulesDirectories: ['node_modules',],
+    module: ['foundation', 'jquery'],
   },
 
   module: {

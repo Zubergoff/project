@@ -1,7 +1,7 @@
 {
   "private": true,
   "engines": {
-    "node": ">=5.0 <6",
+    "node": ">5.3 <6",
     "npm": ">=3.3 <4"
   },
   "dependencies": {
@@ -13,6 +13,7 @@
     "fastclick": "1.0.6",
     "fbjs": "0.5.1",
     "flux": "2.1.1",
+    "foundation-sites": "^6.1.1",
     "front-matter": "2.0.1",
     "history": "1.16.0",
     "jade": "1.11.0",

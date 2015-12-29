@@ -29,7 +29,13 @@ class LoginPage extends Component {
       <div className={s.root}>
         <div className={s.container}>
           <h1>{title}</h1>
-          <p>...</p>
+          <form>
+            <label htmlFor="mail"><p>Please enter your email</p></label>
+            <input type="email" name="mail" id="mail"/>
+            <label htmlFor="passwd"><p>Please enter your name</p></label>
+            <input type="password" name="passwd" id="passwd"/>
+            <button className="success button">{title}</button>
+          </form>
         </div>
       </div>
     );
