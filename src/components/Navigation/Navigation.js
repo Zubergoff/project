@@ -29,6 +29,7 @@ class Navigation extends Component {
         <a className={s.link} href="/login" onClick={Link.handleClick}>Log in</a>
         <span className={s.spacer}>or</span>
         <a className={cx(s.link, s.highlight)} href="/register" onClick={Link.handleClick}>Sign up</a>
+        <a className={s.link} href="/FirebaseLogin" onClick={Link.handleClick}>Firebase Login</a>
       </div>
     );
   }
